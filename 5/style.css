@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	font: normal 16px/20px Arial, sans-serif;
+	/*background: url("header-F.png") ;*/
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	background: white;
+	text-align: center;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+header {
+    /*height: 100px;
+	background: red;*/
+}
+.topheader {
+	background: RGBA(39, 156, 10, 0.7);
+	
+}
+#yourcity {
+	cursor: pointer;
+	color: #fff;
+	padding: 14px;
+}
+.downheader {
+	position: relative;
+    display: flex;
+	/*justify-content: space-between;
+	text-align: right;
+		/*background: url("header-F.png");
+	height: 60px;
+	opacity: 0,4;*/
+}
+.cont {
+	position: relative;
+    display: flex;
+	width: 100%;
+	height: 300px; 
+}
+.img1 {
+	width: 100%;
+	height: 200px; 
+	opacity: .3;
+}
+.downheader span {
+	background: RGBA(40, 165, 10, 0.7);
+    color: #fff;
+	position: absolute;  
+}
+.anytext {
+	/*flex: 1 1 auto; вариант 1 */
+	font-weight: 700;
+	float: left;
+	width: 150px;
+	height: 30px;
+	text-align: left;	
+}
+.fakebutton {
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	width: 150px;
+	text-align: center;
+	/*display: inline-block;*/
+	margin: 10% 50%;
+	cursor: pointer;
+}
+.img2 {
+	width: 100%;
+	height: 200px; 
+	opacity: .3;
+	transform: rotate(180deg);
+}
+main {
+	flex: 1 1 auto;
+	/*height: 100px;
+	background: yellow;*/
+	
+}
+footer {
+	/*height: 100px;
+	background: blue;*/
+	
+}

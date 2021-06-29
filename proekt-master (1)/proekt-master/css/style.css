@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	font: normal 16px/20px Arial, sans-serif;
+	background: url('../images/pattern.jpg') left top repeat;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	background: white;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+header {
+	/*height: 100px;
+	background: red;*/
+	
+}
+main {
+	flex: 1 1 auto;
+	/*height: 10000px;
+	background: yellow;*/
+	
+}
+footer {
+	/*height: 100px;
+	background: blue;*/
+	
+}

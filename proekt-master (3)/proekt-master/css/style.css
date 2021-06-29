@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	font: normal 16px/24px Arial, sans-serif;
+	background: url('../images/pattern.jpg') left top repeat;
+}
+p {
+	margin: 0;
+}
+.container {
+	width: 1168px;
+	margin: 0 auto;
+	padding: 16px;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.div-popup {
+	position: fixed;
+	top: 300px;
+	left: 50%;
+	margin-left: -250px;
+	width: 450px;
+	background: #fff;
+	border-radius: 10px;
+	padding: 25px;
+	color: #000;
+}
+
+
+/* header */
+.topheader {
+	background: #000;
+	color: #fff;
+}
+.mainheader {
+	background: #fff;
+}
+.bottomheader {
+	background: #f93c00;
+}
+#yourcity {
+	cursor: pointer;
+}
+.topmenu {
+	text-align: center;
+}
+.topmenu a {
+	text-decoration: none;
+	padding: 10px;
+}
+.line-point {
+	color: #fff;
+}
+.pulldown-point {
+	color: #f93c00;
+	background: #fff;
+}
+.menupoint {
+	display: inline-block;
+	position: relative;
+	margin: 0 10px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+.menupoint > span {
+	display: none;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	padding: 20px 0 5px;
+	box-shadow: 1px 2px 5px rgba(0,0,0,.4);
+}
+.menupoint:hover > span,
+.menupoint > span:hover {
+	display: block;
+}
+.menupoint:hover {
+	border-color: #f93c00;
+	background: #fff;
+}
+.menupoint:hover .line-point {
+	color: #f93c00;
+}
+.pulldown-point:hover {
+	color: #000;
+}
+
+
+/* main */
+main {
+	flex: 1 1 auto;
+	background: #fff;
+}
+
+/* footer */
+footer {
+	background: #316099;
+	color: #fff;
+}
